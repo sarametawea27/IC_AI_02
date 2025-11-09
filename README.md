@@ -8,7 +8,3 @@ This Streamlit web app uses a Convolutional Neural Network (CNN) model to detect
 - Automatic face detection
 - Emotion prediction (Happy, Sad, Angry, etc.)
 
-### Run locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
