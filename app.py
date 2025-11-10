@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 
-model = load_model('model.h5')
+model = load_model('best_model.pth')
 
 # Emotion Labels
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
