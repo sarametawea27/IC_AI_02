@@ -1,10 +1,17 @@
-# IC_AI_02
-# Facial Emotion Recognition App 😃
+# 🎭 Facial Emotion Recognition using CNN
 
-This Streamlit web app uses a Convolutional Neural Network (CNN) model to detect human emotions from uploaded images.
+This project detects human emotions from facial images using Convolutional Neural Networks (CNN) trained on the FER-2013 dataset.
 
-### Features
-- Upload an image
-- Automatic face detection
-- Emotion prediction (Happy, Sad, Angry, etc.)
+## 🧠 Model Overview
+- Framework: PyTorch
+- Architecture: Custom CNN with Conv2D, MaxPooling, and Fully Connected layers
+- Dataset: FER-2013
+- Accuracy: ~85% on validation set
+
+## 🚀 Run Locally
+Clone the repo:
+```bash
+git clone https://github.com/YOUR_USERNAME/Facial-Emotion-Recognition.git
+cd Facial-Emotion-Recognition
+
 
